@@ -63,17 +63,19 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-gray-800">Stay Connected</h4>
             <p className="text-gray-600">Subscribe to our newsletter for updates</p>
-            <div className="flex" style={{width: '90%'}}>
+            
+            <div className="flex w-[200px]">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="px-4 py-2 rounded-l-full border-2 border-rose-200 focus:outline-none focus:border-rose-400 flex-1"
+                className="w-[180px] px-4 py-2 rounded-l-full border-2 border-rose-200 focus:outline-none focus:border-rose-400 text-sm"
               />
-              <button className="px-4 py-2 bg-rose-500 text-white rounded-r-full hover:bg-rose-600 transition-colors">
+              <button className="px-4 py-2 bg-rose-500 text-white rounded-r-full hover:bg-rose-600 transition-colors whitespace-nowrap text-sm">
                 Subscribe
               </button>
             </div>
           </div>
+
         </div>
 
         {/* Social Links */}
