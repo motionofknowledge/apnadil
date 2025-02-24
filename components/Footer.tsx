@@ -63,7 +63,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-gray-800">Stay Connected</h4>
             <p className="text-gray-600">Subscribe to our newsletter for updates</p>
-            <div className="flex">
+            <div className="flex" style={{width: '90%'}}>
               <input
                 type="email"
                 placeholder="Enter your email"
